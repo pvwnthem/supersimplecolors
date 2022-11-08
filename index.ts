@@ -27,7 +27,7 @@ export default class color {
             return `\x1b[37m${text}\x1b[m`
          }
          static black(text: any) {
-            return `\x1b[30m${text}\x1b[m`
+            return `\x1b[40m${text}\x1b[m`
          }
     }
     static animation = class {
@@ -62,6 +62,9 @@ export default class color {
     static magenta(text: string) {
         return `\x1b[35m${text}\x1b[m `
 
+    }
+    static black(text: string) { 
+        return `\x1b[30m${text}\x1b[m `
     }
     static cyan(text: string) {
         return `\x1b[36m${text}\x1b[m `
