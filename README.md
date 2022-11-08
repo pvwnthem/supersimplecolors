@@ -1,6 +1,7 @@
 # The most lightweight terminal color package out there
 
 
+### For ultra-lighweight, no-bloat terminal styling, use sscolors!
 
 ```javascript
     import color from 'sscolors';
@@ -12,7 +13,6 @@
 ```
 
 You can also use methods like color.bold(text)
-this includes 
 color.bold
 color.italic
 color.strikethrough
