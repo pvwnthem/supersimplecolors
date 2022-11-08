@@ -3,6 +3,7 @@
 
 ### For ultra-lighweight, no-bloat terminal styling, use sscolors!
 
+![alt](https://im4.ezgif.com/tmp/ezgif-4-97fc71e98b.gif)
 ```javascript
     import color from 'sscolors';
 ```
@@ -59,4 +60,5 @@ color.modifier.swapcolors - swaps foreground and background colors
 ## animations
 color.animation.blinkslow - text blinkslow
 color.animation.blinkfast - text blinksfast
+
 
