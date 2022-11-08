@@ -52,3 +52,11 @@ you can wrap different attributes
 like wrapping color.bold(color.{color}({text}))
 this will result in bold colored text of your choice
 
+
+## modifiers
+color.modifier.swapcolors - swaps foreground and background colors
+
+## animations
+color.animation.blinkslow - text blinkslow
+color.animation.blinkfast - text blinksfast
+
