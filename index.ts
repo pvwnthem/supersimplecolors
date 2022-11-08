@@ -1,4 +1,39 @@
+
+
+
 export default class color {
+
+    static background = class {
+        static red(text: any) {
+            return `\x1b[41m${text}\x1b[m`
+           
+         }
+         static green(text: any) {
+            return `\x1b[42m${text}\x1b[m`
+         }
+         static yellow(text: any) {
+            return `\x1b[43m${text}\x1b[m`
+         }
+         static blue(text: any) {
+            return `\x1b[44m${text}\x1b[m`
+         }
+         static magenta(text: any) {
+            return `\x1b[45m${text}\x1b[m`
+         }
+         static cyan(text: any) {
+            return `\x1b[46m${text}\x1b[m`
+         }
+         static white(text: any) {
+            return `\x1b[37m${text}\x1b[m`
+         }
+         static black(text: any) {
+            return `\x1b[30m${text}\x1b[m`
+         }
+    }
+
+
+
+        
     static red(text: string) {
         return `\x1b[31m${text}\x1b[m`
     }
@@ -13,7 +48,7 @@ export default class color {
     }
     static magenta(text: string) {
         return `\x1b[35m${text}\x1b[m `
-        
+
     }
     static cyan(text: string) {
         return `\x1b[36m${text}\x1b[m `
@@ -41,4 +76,3 @@ export default class color {
 
     
 }
-
