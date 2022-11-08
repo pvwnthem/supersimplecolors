@@ -30,6 +30,19 @@ export default class color {
             return `\x1b[30m${text}\x1b[m`
          }
     }
+    static animation = class {
+        static blinkslow(text: any) { 
+            return `\x1b[5m${text}\x1b[m `
+        }
+        static blinkfast(text: any) { 
+            return `\x1b[6m${text}\x1b[m `
+        }
+    }
+    static modifier = class {
+        static swapcolors(text: any) {
+            return `\x1b[7m${text}\x1b[m `
+        }
+    }
 
 
 
