@@ -1,8 +1,9 @@
 {
   "name": "sscolors",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "a lightweight terminal styling library",
   "main": "index.ts",
+  "repository": "https://github.com/pvwnthem/supersimplecolors",
   
   "keywords": ["terminal", "ansi", "color"],
   "author": "pvwn",
