@@ -3,7 +3,7 @@
 
 ### For ultra-lighweight, no-bloat terminal styling, use sscolors!
 
-![alt](https://im4.ezgif.com/tmp/ezgif-4-97fc71e98b.gif)
+![alt](https://i.imgur.com/mpuRznB.gif)
 
 
 
